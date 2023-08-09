@@ -1,16 +1,6 @@
 # api_based_app
 
-A new Flutter project.
+## Glimpse of home and results page
+![WhatsApp Image 2023-08-10 at 01 42 27](https://github.com/palak684/App-Dev-cohort-project/assets/104788250/42af9331-9322-4b93-8e86-31628b3f2511)
+![WhatsApp Image 2023-08-10 at 01 43 02](https://github.com/palak684/App-Dev-cohort-project/assets/104788250/c3e4d0de-dfa1-45e9-974d-d0eb9b9373da)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
