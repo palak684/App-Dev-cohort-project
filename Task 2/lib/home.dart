@@ -13,27 +13,31 @@ class _MyHomeState extends State<MyHome> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.teal,
-        title: Text('Search for Universities'),
+        backgroundColor: Colors.white,
+        title: Text('UNIVERSITIES HUNT',
+        style: TextStyle(
+          color: Colors.black,
+          fontWeight: FontWeight.bold
+        )),
       ),
 
       body:
-      // Center(
-      //   child: Stack(
-      //     children: [
-      //       Container(
-      //         decoration: BoxDecoration(
-      //           image: DecorationImage(
-      //             image: AssetImage("assets/img.png"),
-      //             fit: BoxFit.cover,
-      //           ),
-      //         ),
-      //       ),
+      Center(
+        child: Stack(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/img_8.png"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
 
       Container(
-        margin: EdgeInsets.only(left: 30, right: 30),
+        margin: EdgeInsets.only(left: 30, right: 30,top: 130),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center ,
+          //mainAxisAlignment: MainAxisAlignment.center ,
           children: [
             TextField(
               controller: countryController, //
@@ -52,9 +56,9 @@ class _MyHomeState extends State<MyHome> {
             ),
 
             Material(
-              elevation: 5,
+              elevation: 10,
               borderRadius: BorderRadius.circular(20),
-              color: Colors.teal,
+              color: Colors.cyan[200],
               child: MaterialButton(
                 onPressed: (){
                   Navigator.pushNamed(context, 'results');
@@ -62,7 +66,9 @@ class _MyHomeState extends State<MyHome> {
                 child: Text(
                   'Search',
                   style: TextStyle(
-                    color:Colors.white),
+                    fontWeight: FontWeight.bold,
+                    color:Colors.black),
+
                   ),
                 ),
               ),
@@ -70,9 +76,9 @@ class _MyHomeState extends State<MyHome> {
           ],
         ),
       ),
-      //     ],
-      //   ),
-      // ),
+          ],
+        ),
+      ),
 
 
     );
